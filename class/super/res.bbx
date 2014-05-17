@@ -1,0 +1,7 @@
+program img res
+
+#raw (save) :- system.var :- {(var,text,number)[var i : :=] + ':' + (i %- (0,1,2) %= value)}
+#raw (load) :- system.var.load :- {system.var.name}
+#raw (make) :- system.c-make.var :- {system.var.name}
+
+end
